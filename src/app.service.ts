@@ -20,7 +20,7 @@ export class AppService {
         cupom = cupom.toUpperCase();
 
         const font = await Jimp.loadFont(Jimp.FONT_SANS_64_WHITE);
-        const image = await Jimp.read('./img/post1.png');
+        const image = await Jimp.read('./img/cupom.png');
         return await image.print(
             font,
             // Centering string
