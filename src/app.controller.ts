@@ -8,7 +8,7 @@ export class AppController {
 
   @Get()
   returnImage( @Res() res) {
-    return res.sendFile('post1.png', {root: 'img'});
+    return res.sendFile('cupom.png', {root: 'img'});
   }
 
   @Get(':cupom')
